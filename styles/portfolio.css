@@ -310,7 +310,7 @@ footer textarea {
     text-align: left;
   }
   .section-tittle,
-  .sectio-tittle {
+  .section-tittle {
     font-size: 20px;
   }
   .section-description {
@@ -356,26 +356,4 @@ footer textarea {
   }
   .footer-column {
     width: 100%;
-    min-width: 0;
-  }
-
-  footer input[type="text"],
-  footer input[type="email"],
-  footer textarea {
-    height: 48px;
-    padding: 8px 12px;
-    margin-bottom: 12px;
-  }
-  footer textarea { min-height: 100px; }
-
-  .btn-primary {
-    padding: 12px 20px;
-    font-size: 16px;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  * {
-    transition: none !important;
-  }
 }
